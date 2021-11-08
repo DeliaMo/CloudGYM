@@ -1,0 +1,304 @@
+body{
+    color: white;
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+
+#main{
+    padding-top: 40px;
+    
+}
+
+#top{
+    padding: 40px 40px 0;
+    overflow: hidden;
+}
+
+h3{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+#left{
+    width: 700px;
+    height: 600px;
+    float: left;
+}
+
+#video_img{
+    width: 700px;
+}
+
+#video_info{
+    margin-top: 10px;
+}
+
+#video_info button{
+    background-color: #31105E;
+    border: none;
+}
+
+#video_info i{
+    color:#fff;
+}
+
+#video_info span{
+    font-size: 14px;
+    color: #fff;
+}
+
+.date{
+    float: right;
+}
+
+#left p{
+    margin-top: 30px;
+    width: 600px;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+div.comment{
+    width: 700px;
+    height: 403px;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+div.comment h3{
+    color:rgb(51, 51, 51);
+    margin-top: 100px;
+}
+
+span.star{
+    color: black;
+}
+
+span.star:hover{
+    color:yellow;
+}
+
+div.comment span.get{
+    color:yellow;
+}
+
+div.comment h4{
+    text-align: center;
+    margin-top: 30px;
+    color:rgb(51, 51, 51);
+    font-size: 20px;
+}
+
+div.comment input{
+    margin-top: 15px;
+    width: 210px;
+    height: 30px;
+    /* padding: 3px; */
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0;
+    outline: none;
+}
+
+div.disable{
+	width: 700px;
+    height: 395px;
+    position: absolute;
+    background-color: #272727;
+    text-align: center;
+}
+
+div.disable h3{
+	margin-top: 200px;
+}
+
+#right{
+    width: 350px;
+    height: 500px;
+    float: right;
+    background-color: #EDE9F2;
+    color: black;
+}
+
+#coach_name{
+    margin-top: 40px;
+    text-align: center;
+}
+
+#coach_photo{
+    /* margin-top: 10px; */
+    display: block;
+    width: 200px;
+    margin: 10px auto 20px;
+    
+}
+
+#line{
+    width: 100%;
+    border-top: 1px solid gray;
+}
+
+#coach_info{
+    padding: 15px;
+    font-size: 13px;
+}
+
+#bottom{
+    padding: 20px 40px 0;
+}
+
+#bottom ul{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 0;
+    padding-left: 8px;
+}
+
+#bottom li{
+    display: inline-block;
+}
+
+li.push{
+    margin-right: 35px;
+    width: 200px;
+}
+
+li.push a{
+	margin-left:0;
+}
+
+.video_pic{
+    width: 200px;
+}
+
+.video_name{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/***************************以下複製貼上****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}
+
+/***********************/
+div.addmenu{
+    width: 230px;
+    position: absolute;
+    bottom: 0;
+    left: 190px;
+    background-color: #EDE9F2;
+    text-align: center;
+}
+
+div.addmenu h3{
+    font-size: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+div.addmenu ul{
+
+}
+
+div.addmenu li{
+    height: 30px;
+    line-height: 30px;
+    color: black;
+}
+
+div.addmenu li:hover{
+    background-color: rgb(187, 187, 187);
+}

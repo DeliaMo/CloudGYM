@@ -1,0 +1,106 @@
+body{
+    font-family: ·L³n¥¿¶ÂÅé;
+    background-color: #31105E !important;
+}
+
+#bar {
+	height: 40px;
+	background-color: #5C37A1;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+#title {
+	float: left;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+img {
+	width: 35px;
+	margin-top: 3px;
+}
+
+.bar_li {
+	float: left;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	margin-left: 10px;
+}
+
+#option {
+	float: right;
+	overflow: hidden;
+}
+
+.option {
+	float: left;
+	color: white;
+	line-height: 40px;
+	margin: 0 10px;
+	font-size: 14px;
+}
+
+#main{
+    padding: 70px;
+    background-color: #31105E;
+}
+
+#form{
+    background-color: #EDE9F2;
+    padding: 50px;
+    margin:0px auto;
+    width: 700px;
+    height: 370px;
+    border-radius: 10px;
+}
+
+#box1{
+    overflow: hidden;
+/*     border:1px solid #000; */
+}
+
+#form_title{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    color: black;
+/*     border:1px solid #000; */
+}
+
+#box2{
+    position: absolute;
+    padding-top: 100px;
+    font-weight: bold;
+    float: left;
+    width: 300px;
+    color: black;
+/*     border:1px solid #000; */
+}
+
+#post_box{
+/*     border:1px solid #000; */
+    float: right;
+    height: 217px;
+    width: 380px;
+    padding-top: 89px;
+}
+
+#button_area{
+    padding-top: 350px;
+    padding-left: 245px;
+/*     border:1px solid #000; */
+}
+
+#button{
+    background-color: #5C37A1;
+    color: white;
+    border-radius: 5px;
+}

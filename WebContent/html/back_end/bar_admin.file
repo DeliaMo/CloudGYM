@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+	<div id="bar">
+		<div id="title">
+			<ul>
+				<li class="bar_li"><img src="<%=request.getContextPath()%>/img/logo.png" alt="" for="#CloudGYM"></li>
+				<li class="bar_li"><a href="${pageContext.request.contextPath}/main_page.jsp" id="CloudGYM">CloudGYM</a></li>
+			</ul>
+		</div>
+		<div id="option">
+			<ul>
+				<li class="option"><a class="logout" href="javascript:if (confirm('確認登出?')) location.href='<%=request.getContextPath()%>/LogoutHandler'">登出</a></li>
+				<li class="option"><a class="login_ad"
+					href="<%=request.getContextPath()%>/html/back_end/back_end_Admin.jsp">管理員: ${adminNo}</a></li>
+			</ul>
+		</div>
+	</div>

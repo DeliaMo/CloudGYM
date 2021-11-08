@@ -1,0 +1,117 @@
+/****************** bar css begining ******************/
+
+#bar {
+	height: 40px;
+	background-color: #5C37A1;
+	overflow: hidden;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+#title {
+	float: left;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+img {
+	width: 35px;
+	margin-top: 3px;
+}
+
+.bar_li {
+	float: left;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	margin-left: 10px;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.bi {
+	margin-top: 7px;
+}
+
+/*** Drop-down menu ***/
+#menu {
+	margin: auto;
+	float: right;
+}
+
+.main {
+	background-color:#5C37A1;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	width: 70px;
+}
+
+.main a {
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	margin: auto;
+}
+
+#logout{
+	width: 100%;
+}
+
+.url {
+	margin: auto;
+}
+
+.main:hover {
+	background-color: #4d4949;
+}
+
+.sub {
+	position:fixed;
+	cursor: pointer;
+	background-color: #4d4949;
+	color: white;
+	font-size: 12px;
+	font-family: ·L³n¥¿¶ÂÅé;
+	text-align: center;
+	width: 70px;
+}
+
+.sub li {
+	list-style-type: none;
+	line-height: 40px;
+}
+
+.sub a {
+	list-style-type: none;
+	line-height: 40px;
+	margin: auto;
+}
+
+.item {
+	float: left;
+}
+
+#menu li {
+	list-style-type: none;
+}
+
+/****************** bar css end ******************/

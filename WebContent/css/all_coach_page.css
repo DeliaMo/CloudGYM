@@ -1,0 +1,169 @@
+body{
+/*     color: white; */
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+
+div#main{
+    padding-top: 40px;
+    background-color: #31105E;
+}
+
+div.find{
+    position: relative;
+}
+
+div.find input{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.fa-paper-plane{
+    position: absolute;
+    top: 67px;
+    right: 115px;
+    color:rgb(89, 100, 255)
+}
+
+div.coach_list{
+    padding: 100px;
+}
+
+div.coach_list ul{
+    /* margin-top: 50px; */
+    overflow: hidden;
+}
+
+li.coach{
+    overflow: hidden;
+    margin-top: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #EDE9F2;
+}
+
+li.coach img{
+    width: 30%;
+    float: left;
+    vertical-align: bottom;
+    margin-top: 0;
+}
+
+span.info{
+    float: right;
+    display: inline-block;
+    width: 70%;
+}
+
+li.coach h3{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+p.descirption{
+margin-top: 20px;
+margin-left: 30px;
+font-size: 20px;
+}
+
+/***************************以下複製貼上****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

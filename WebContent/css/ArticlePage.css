@@ -1,0 +1,184 @@
+body{
+/*     color: white; */
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+#title img {
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************隞乩��ˊ鞎潔��****************************/
+
+/* header_end */
+
+
+/* main */
+#updatearticle div{
+	background-color: #31105E;
+}
+
+#updatearticle div form{
+	background-color: #31105E;
+}
+
+.row{
+    background-color: #ECE9F2;
+    border-radius: 25px;
+    padding-top: 30px;
+}
+
+img.rounded{
+	width: 100%;
+}
+
+.icon{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.icon form{
+	display:inline-block;
+}
+
+
+#aa{
+	margin-right: 40px;
+	border: none;
+	background-color: #ECE9F2;
+}
+#bb{
+	margin-right: 40px;
+	border: none;
+	background-color: #ECE9F2;
+}
+#cc{
+	margin-right: 40px;
+	border: none;
+	background-color: #ECE9F2;
+}
+#dd{
+    margin-left: 500px;
+    font-size: 15px;
+}
+
+.more a {
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 40px;
+	color: blue;
+}
+
+/* right */
+
+/* 嚙踝蕭�嚙踐�蕭嚙� */
+.feed{
+    height: 140px;
+    text-align: center;
+}
+
+.feed a{
+    margin: 0 10px;
+}
+
+.feed button{
+    margin-top: 20px;
+}
+
+/* ���雓� */
+#newcomment{
+    font-size: 10px;
+    margin: 10px 0px 0px 740px;
+}
+
+.fw-bold input{
+    margin-left: 550px;
+}
+
+/***************************隞乩��ˊ鞎潔��****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

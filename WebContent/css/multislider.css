@@ -1,0 +1,67 @@
+html {
+/* 	padding: 50px; */
+	font-family: sans-serif;
+}
+
+#exampleSlider {
+	position: relative;
+	width: 1400px;
+}
+
+#exampleSlider .MS-content {
+	margin: 15px 5%;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 1150px;
+	
+}
+
+#exampleSlider .MS-content .item {
+	display: inline-block;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	/*   border: 1px solid green; */
+	border-right: none;
+/* 	width: 33.333%; */
+	width: 433px;
+}
+
+.img_block{
+	margin:0 auto;
+}
+
+.pic {
+	width: 250px;
+}
+
+p {
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	width: 250px;
+}
+
+#exampleSlider .MS-controls button {
+	position: absolute;
+	border: none;
+	background: transparent;
+	font-size: 30px;
+	outline: 0;
+	top: 60px;
+}
+
+#exampleSlider .MS-controls button:hover {
+	cursor: pointer;
+}
+
+#exampleSlider .MS-controls .MS-left {
+	left: 0px;
+}
+
+
+#exampleSlider .MS-controls .MS-right {
+	right: 130px;
+}
+

@@ -1,0 +1,258 @@
+body{
+/*     color: white; */
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+ 
+#wrap{
+    padding-top: 40px;
+    padding: 90px 100px 50px;
+    background-color: #31105E;
+}
+
+#top{
+    padding: 20px 60px;
+    border-radius: 10px;
+    background-color: #EDE9F2;
+}
+
+#head{
+    border-bottom: 2px dotted black;
+    height: 30px;
+    padding: 0 30px;
+}
+
+#head span{
+    line-height: 30px;
+}
+
+#info{
+    padding: 20px 50px 0;
+}
+
+#info ul{
+
+}
+
+#info li{
+    padding: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+#info img{
+    width: 150px;
+}
+
+#wrapper{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+#info h3{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info p{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.price{
+    float: right;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+#info button{
+    position:absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: #fff;
+}
+
+#foot{
+    border-top: 2px dotted black;
+    height: 30px;
+    padding: 0 30px;
+}
+
+#foot p{
+    line-height: 30px;
+    float: right;
+}
+
+#bottom{
+    padding: 20px 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    background-color: #EDE9F2;
+}
+
+#head2{
+    border-bottom: 2px dotted black;
+    height: 30px;
+    padding: 0 30px;
+}
+
+#head2 p{
+    line-height: 30px;
+}
+
+#card_info{
+    padding: 20px 50px ;
+}
+
+#card_info h3{
+    font-size: 18px;
+    font-weight:bold;
+    margin-bottom: 30px;
+}
+
+input{
+    display: block;
+    width: 260px;
+    height: 30px;
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 7px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: none;
+    transition: background 0.5s;
+}
+  
+:focus{
+    outline-width: 0;
+    background: rgba(31,134,252, 0.15);
+    transition: background 0.5s;
+} 
+  
+label{
+    padding-left: 8px;
+    font-size: 11px;
+    color: #444;
+}
+  
+.ccv{
+    width: 70px;
+}
+
+#button{
+    border-top: 2px dotted black;
+    height: 30px;
+    padding: 0 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#button button{
+    width: 120px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    /* margin-top: 15px; */
+    background-color: #5C37A1;
+    color: #ffffff;
+    margin: 15px 60px 0;
+}
+
+/***************************以下複製貼上****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

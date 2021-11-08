@@ -1,0 +1,224 @@
+body{
+/*     color: white; */
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+#title img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************隞乩��ˊ鞎潔��****************************/
+
+/* header_end */
+
+.navimg{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.navimg img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu-wrapper{
+    background-color:rgb(118, 113, 124);
+    line-height: 60px;
+}
+
+.menu-wrapper ul{
+    text-align:center;
+}
+
+.menu-wrapper ul li{
+    display:inline;
+    margin: 0 30px;
+}
+
+.menu-wrapper li a{
+/*     color:white; */
+    font-weight:bold;
+    text-decoration:none;
+    font-size: 20px;
+}
+
+a{
+	color: white;
+}
+a:hover{
+	color: rgb(61, 40, 78);
+}
+
+.col-md-4{
+    width: 280px;
+    height: 210px;
+}
+
+
+
+/* main */
+
+#addarticle div{
+	background-color: #31105E;
+}
+
+.container{
+    background-color: #ECE9F2;
+    margin: 30px auto 0;
+    border-radius: 25px;
+    padding-top: 20px;
+}
+
+.card-body i{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.card-body i span{
+    margin-left: 10px;
+}
+
+.col-md-4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-title{
+    overflow: hidden; 
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    font-weight:bold;
+}
+
+.card-text{
+    display: -webkit-box; /*嚙賣�蕭�嚙踝�冪-webkit-box嚙踝蕭謘選蕭嚙�-webkit-inline-box*/
+    -webkit-box-orient: vertical; /*嚙賣�蕭�嚙踝�冪vertical*/
+    -webkit-line-clamp: 3; /*嚙賣�冪嚙踐�謅�嚙踝�蝞蕭嚙踝������蕭嚙�*/
+    overflow: hidden;
+}
+
+.cb{
+    position: absolute;
+    bottom: 15px;
+}
+
+.cb a{
+    width: 90px;
+    font-size: 14px;
+    margin-right: 290px;
+}
+
+
+/* right */
+.card-header{
+    background-color: rgb(118, 113, 124);
+    color: white;
+}
+
+.recent-posts{
+    width: 400px;
+}
+
+.recent-posts li{
+    margin: 20px;
+}
+
+.recent-posts li a{
+    text-decoration:none;
+    color: black;
+}
+
+.ad img{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+/***************************隞乩��ˊ鞎潔��****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

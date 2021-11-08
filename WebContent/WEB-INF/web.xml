@@ -1,0 +1,306 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	version="4.0">
+	<display-name>CloudGYM</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+		<welcome-file>main_page.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>CoachMenuServlet</servlet-name>
+		<servlet-class>com.coachMenu.controller.CoachMenuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CoachMenuServlet</servlet-name>
+		<url-pattern>/coachMenu/coachMenu.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>OrdersServlet</servlet-name>
+		<servlet-class>com.orders.controller.OrdersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrdersServlet</servlet-name>
+		<url-pattern>/orders/orders.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>AdminServlet</servlet-name>
+		<servlet-class>com.admin.controller.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AdminServlet</servlet-name>
+		<url-pattern>/html/admin.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserAuthServlet</servlet-name>
+		<servlet-class>com.userAuth.controller.UserAuthServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserAuthServlet</servlet-name>
+		<url-pattern>/html/UserAuth.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CoachImageOutput</servlet-name>
+		<servlet-class>com.coach.image.CoachImageOutput</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CoachImageOutput</servlet-name>
+		<url-pattern>/html/CoachImageOutput</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PostsImageOutput</servlet-name>
+		<servlet-class>com.posts.image.PostsImageOutput</servlet-class>
+	</servlet>
+	<servlet-mapping>
+
+		<servlet-name>PostsImageOutput</servlet-name>
+		<url-pattern>/html/PostsImageOutput</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>VideoOutput</servlet-name>
+		<servlet-class>com.video.video.VideoOutput</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VideoOutput</servlet-name>
+		<url-pattern>/html/VideoOutput</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>VideoServlet</servlet-name>
+		<servlet-class>com.video.controller.VideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VideoServlet</servlet-name>
+		<url-pattern>/video/video.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>com.user.controller.UserServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/html/user.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PostsServlet</servlet-name>
+		<servlet-class>com.posts.controller.PostsServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PostsServlet</servlet-name>
+		<url-pattern>/html/Article.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>LikesServlet</servlet-name>
+		<servlet-class>com.likes.controller.LikesServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LikesServlet</servlet-name>
+		<url-pattern>/html/likes.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CommentServlet</servlet-name>
+		<servlet-class>com.comment.controller.CommentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CommentServlet</servlet-name>
+		<url-pattern>/html/comment.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CoachImgServlet</servlet-name>
+		<servlet-class>com.coach.controller.CoachImgServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CoachImgServlet</servlet-name>
+		<url-pattern>/coachImg/coachImg.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CoachServlet</servlet-name>
+		<servlet-class>com.coach.controller.CoachServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CoachServlet</servlet-name>
+		<url-pattern>/coach/coach.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>SubListServlet</servlet-name>
+		<servlet-class>com.subList.controller.SubListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>SubListServlet</servlet-name>
+		<url-pattern>/html/sublist.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>VideoServleta</servlet-name>
+		<servlet-class>com.video.controller.VideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VideoServleta</servlet-name>
+		<url-pattern>/html/video.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>CollectionServlet</servlet-name>
+		<servlet-class>com.collection.controller.CollectionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CollectionServlet</servlet-name>
+		<url-pattern>/html/collection.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Reader</servlet-name>
+		<servlet-class>com.posts.controller.Reader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Reader</servlet-name>
+		<url-pattern>/Reader</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReportServlet</servlet-name>
+		<servlet-class>com.report.controller.ReportServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReportServlet</servlet-name>
+		<url-pattern>/report/report.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ReviewServlet</servlet-name>
+		<servlet-class>com.review.controller.ReviewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReviewServlet</servlet-name>
+		<url-pattern>/review/review.do</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>OrderListServlet</servlet-name>
+		<servlet-class>com.orderList.controller.OrderListServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderListServlet</servlet-name>
+		<url-pattern>/html/orderList.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MenuAndVideoServlet</servlet-name>
+		<servlet-class>com.menuAndVideo.controller.MenuAndVideoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>MenuAndVideoServlet</servlet-name>
+		<url-pattern>/userMenuAndVideo/userMenu.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserMainPageServlet</servlet-name>
+		<servlet-class>com.userMainPage.controller.UserMainPageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserMainPageServlet</servlet-name>
+		<url-pattern>/userMainPage/userInfo.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UserMenuListPageServlet</servlet-name>
+		<servlet-class>com.userMenuListPage.controller.UserMenuListPageServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UserMenuListPageServlet</servlet-name>
+		<url-pattern>/userMenuListPage/userMenuList.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>reader</servlet-name>
+		<servlet-class>com.menuAndVideo.controller.Reader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>reader</servlet-name>
+		<url-pattern>/reader</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>VideoReader</servlet-name>
+		<servlet-class>com.userMenuListPage.controller.VideoReader</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>VideoReader</servlet-name>
+		<url-pattern>/VideoReader</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CustomMenuServlet</servlet-name>
+		<servlet-class>com.customMenu.controller.CustomMenuServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomMenuServlet</servlet-name>
+		<url-pattern>/customMenu/customMenu.do</url-pattern>
+	</servlet-mapping>
+
+	<filter>
+		<filter-name>loginFilterUser</filter-name>
+		<filter-class>filters.LoginFilterUser</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginFilterUser</filter-name>
+		<url-pattern>/html/user/protected_user/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+		<dispatcher>ERROR</dispatcher>
+		<dispatcher>ASYNC</dispatcher>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>loginFilterCoach</filter-name>
+		<filter-class>filters.LoginFilterCoach</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginFilterCoach</filter-name>
+		<url-pattern>/html/coach/protected_coach/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+		<dispatcher>ERROR</dispatcher>
+		<dispatcher>ASYNC</dispatcher>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>loginFilterAdmin</filter-name>
+		<filter-class>filters.LoginFilterAdmin</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>loginFilterAdmin</filter-name>
+		<url-pattern>/protected_admin/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>INCLUDE</dispatcher>
+		<dispatcher>ERROR</dispatcher>
+		<dispatcher>ASYNC</dispatcher>
+	</filter-mapping>
+
+	<resource-ref>
+		<description>DB Connection</description>
+		<res-ref-name>jdbc/TestDB2</res-ref-name>
+		<res-type>javax.sql.DataSource</res-type>
+		<res-auth>Container</res-auth>
+	</resource-ref>
+
+</web-app>

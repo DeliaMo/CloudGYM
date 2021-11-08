@@ -1,0 +1,190 @@
+body{
+/*     color: white; */
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+
+#main{
+    padding: 70px;
+    background-color: #31105E;
+}
+
+#form{
+    background-color: #EDE9F2;
+    padding: 50px;
+    margin:0px auto;
+    width: 700px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+#box1{
+    overflow: hidden;
+    /* border: black; */
+}
+
+#form_title{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    float: left;
+    color: black;
+}
+
+
+#box2{
+    padding-top: 10px;
+    width:350px;
+    height:500px;
+    /* border:1px solid #000; */
+    float:right;
+}
+
+#video_name{
+    font-weight: bold;
+}
+
+#video_intro{
+    font-weight: bold;
+}
+
+#intro_input{
+    resize: none;
+    width: 300px;
+    height: 150px;
+}
+
+#post_box{
+    padding-top: 10px;
+    width:350px;
+    height:160px;
+    /* border:1px solid #000; */
+    float:left;
+}
+
+#post_name{
+    font-weight: bold;
+}
+
+#button_area{
+    padding-top: 50px;
+    text-align: center;
+    /* border:1px solid #000; */
+}
+
+#button{
+    background-color: #5C37A1;
+    color: white;
+    border-radius: 5px;
+}
+
+#box3{
+    padding-top: 10px;
+    height:500px;
+    /* border:1px solid #000; */
+    float:left;
+}
+
+.video_pic{
+    width: 325px;
+    padding-top: 50px;
+}
+
+#public_box{
+    padding-top: 50px;
+    /* border:1px solid #000; */
+}
+
+/***************************以下複製貼上****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

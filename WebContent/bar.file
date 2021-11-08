@@ -1,0 +1,113 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<!-------------------------------- bar begining -------------------------------->
+	<!------- jQuery of Drop-down menu ------->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+	$("#menu").css("width", $(".main").length * 200)
+		$(document).ready(function() {
+			//  一進入畫面時收合選單
+			$(".sub").slideUp(0);
+
+			for (i = 0; i < $(".main").length; i++) {
+				//  點選按扭時收合或展開選單
+				$(".main:eq(" + i + ")").on("click", {
+					id : i
+				}, function(e) {
+					n = e.data.id
+					$(".sub:eq(" + n + ")").slideToggle()
+					$(".sub:not(:eq(" + n + "))").slideUp()
+				})
+				$(".main:eq(" + i + ")").on("mouseleave", {
+					id : i
+				}, function(e) {
+					n = e.data.id
+					$(".sub").stop();
+				})
+			}
+		})
+	</script>
+
+	<!------- the bar content ------->
+	<div id="bar">
+		<div id="title">
+			<ul>
+				<li class="bar_li"><img src="../img/logo.png" alt=""
+					for="#CloudGYM"></li>
+				<li class="bar_li"><a
+					href="${pageContext.request.contextPath}/html/main_page.jsp"
+					id="CloudGYM">CloudGYM</a></li>
+			</ul>
+		</div>
+
+
+		<div id="menu">
+			<!-- 第一組清單   -->
+			<div class="item">
+				<div class="main">
+					<a calss="url" href="${pageContext.request.contextPath}/html/all_video_page.jsp">運動類型</a>
+				</div>
+				<div class="sub"></div>
+			</div>
+			<!-- 第二組清單   -->
+			<div class="item">
+				<div class="main">
+					<a calss="url" href="${pageContext.request.contextPath}/html/all_coach_page.jsp">教練</a>
+				</div>
+				<div class="sub"></div>
+			</div>
+			<!-- 第三組清單   -->
+			<c:if test="${not empty userVO}">
+				<div class="item">
+					<div class="main">
+						<a calss="url" href="${pageContext.request.contextPath}/userMainPage/userMainPage.jsp">個人專區</a>
+					</div>
+					<div class="sub"></div>
+				</div>
+			</c:if>
+			<!-- 第四組清單   -->
+			<c:if test="${not empty coachVO}">
+				<div class="item">
+					<div class="main">
+						<a calss="url" href="${pageContext.request.contextPath}/html/coach_page.jsp">我是教練</a>
+					</div>
+					<div class="sub"></div>
+				</div>
+			</c:if>
+			<!-- 第五組清單   -->
+			<div class="item">
+				<div class="main">
+					<a calss="url" href="${pageContext.request.contextPath}/html/ArticleList.jsp">討論區</a>
+				</div>
+				<div class="sub"></div>
+			</div>
+			<!-- 第六組清單   -->
+			<c:if test="${empty userID}">
+				<div class="item">
+					<div class="main" >註冊/登入</div>
+					<div class="sub">
+						<ul>
+							<li><a href="${pageContext.request.contextPath}/html/sign_up_page.jsp">會員註冊</a></li>
+							<li><a href="${pageContext.request.contextPath}/html/login_user.jsp">會員登入</a></li>
+							<li><a href="${pageContext.request.contextPath}/html/login_coach.jsp">教練登入</a></li>
+							<li><a href="${pageContext.request.contextPath}/html/login_admin.jsp" target="_blank">後台管理員</a></li>
+						</ul>
+					</div>
+				</div>
+			</c:if>
+			<!-- 第七組清單   -->
+			<c:if test="${not empty userID}">
+				<div class="item">
+					<div class="main" id="logout"><a href="javascript:if (confirm('確認登出?')) location.href='<%=request.getContextPath()%>/LogoutHandler'">${name} 登出</a></div>
+					<div class="sub"></div>
+				</div>
+			</c:if>
+
+			<li class="option">
+				<svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+            		<path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+                </svg>
+            </li>
+		</div>
+	</div>
+<!-------------------------------- bar end -------------------------------->

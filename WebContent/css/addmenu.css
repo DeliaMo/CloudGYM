@@ -1,0 +1,212 @@
+body{
+/*     color: white; */
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+ #menu {
+	margin: auto;
+	float: right;
+}
+
+.main {
+	background-color:#5C37A1;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+	width: 70px;
+}
+
+.main a {
+	color: #fff;
+	text-decoration: none;
+	line-height: 40px;
+	margin: auto;
+}
+
+#logout{
+	width: 100%;
+}
+
+.url {
+	margin: auto;
+}
+
+.main:hover {
+	background-color: #4d4949;
+}
+
+.sub {
+	position:fixed;
+	cursor: pointer;
+	background-color: #4d4949;
+	color: white;
+	font-size: 12px;
+	font-family: 微軟正黑體;
+	text-align: center;
+	width: 70px;
+}
+
+.sub li {
+	list-style-type: none;
+	line-height: 40px;
+}
+
+.sub a {
+	list-style-type: none;
+	line-height: 40px;
+	margin: auto;
+}
+
+.item {
+	float: left;
+}
+
+#menu li {
+	list-style-type: none;
+}
+
+div#main{
+    
+    padding-top: 140px;
+}
+
+div.content{
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #EDE9F2;
+    text-align: center;
+    border-radius: 20px;
+}
+
+div.content h2{
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+div.content table{
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+div.content tr{
+    height: 50px;
+}
+
+div.content input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    outline: none;
+    background-color: #EDE9F2;
+    border-radius: 0;
+}
+
+div.content button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: #5C37A1;
+    color: #fff;
+    border-radius: 15px;
+    margin: 0 20px;
+}
+
+/***************************以下複製貼上****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

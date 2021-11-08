@@ -1,0 +1,116 @@
+#exampleSlider {
+	position: relative;
+	max-width: 1400px;
+}
+
+#exampleSlider .MS-content {
+	margin: 15px 5%;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 1150px;
+	height: 300px;
+}
+
+#exampleSlider .MS-content .item {
+	display: inline-block;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	vertical-align: top;
+	/*   border: 1px solid green; */
+	border-right: none;
+	width: 33.333%;
+	/* 	width: 433px; */
+}
+
+.img_block {
+	/* 	margin:0px auto; */
+	text-align: center;
+}
+
+.pic {
+	width: 250px;
+}
+
+.coach_list {
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	width: 250px;
+	margin-left: 20%;
+}
+
+#exampleSlider .MS-controls button {
+	position: absolute;
+	border: none;
+	background: transparent;
+	font-size: 30px;
+	outline: 0;
+	top: 60px;
+}
+
+#exampleSlider .MS-controls button:hover {
+	cursor: pointer;
+}
+
+#exampleSlider .MS-controls .MS-left {
+	left: 20px;
+}
+
+#exampleSlider .MS-controls .MS-right {
+	right: 130px;
+}
+
+@media ( max-width : 767px) {
+	#exampleSlider {
+		border-color: transparent;
+	}
+}
+
+@media ( max-width : 767px) {
+	#exampleSlider .MS-content {
+		margin: 0;
+	}
+}
+
+@media ( max-width : 1200px) {
+	#exampleSlider .MS-content .item {
+		width: 33.3333%;
+	}
+}
+
+@media ( max-width : 992px) {
+	#exampleSlider .MS-content .item {
+		width: 33.3333%;
+	}
+}
+
+@media ( max-width : 767px) {
+	#exampleSlider .MS-content .item {
+		width: 50%;
+	}
+}
+
+@media ( max-width : 500px) {
+	#exampleSlider .MS-content .item {
+		width: 100%;
+	}
+}
+
+@media ( max-width : 767px) {
+	#exampleSlider .MS-controls button {
+		display: none;
+	}
+}
+
+@media ( max-width : 992px) {
+	#exampleSlider .MS-controls .MS-left {
+		left: -2px;
+	}
+}
+
+@media ( max-width : 1200px) {
+	#exampleSlider .MS-controls .MS-right {
+		right: -2px;
+	}
+}

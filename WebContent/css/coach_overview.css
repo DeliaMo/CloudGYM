@@ -1,0 +1,292 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+
+div#main{
+    padding-top: 40px;
+    height: 100%;
+    background-color: #31105E;
+}
+
+div.left{
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    border-right: 1px solid rgb(136, 136, 136);
+    vertical-align: top;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.left input{
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #8E6BBF;
+    color: white;
+    border-radius: 15px;
+}
+
+div.left a{
+	display: inline-block;
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #8E6BBF;
+    color: white;
+    border-radius: 15px;
+}
+
+div.left span{
+	display: inline-block;
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: rgb(143, 143, 143);
+    color: white;
+    border-radius: 15px;
+    line-height: 40px;
+}
+
+div.right{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+div.my_menu{
+    position: relative;
+}
+
+div.my_menu h3{
+    font-size: 18px;
+    color:#fff;
+}
+
+div.my_menu ul{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+div.my_menu li{
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    margin-right: 120px;
+    position: relative;
+    background-color: #ECE9F2;
+}
+
+div.my_menu p{
+    text-align: center;
+    background-color: #8E6BBF;
+    height: 30px;
+    line-height: 30px;
+    color:#fff;
+}
+
+div.my_menu span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8E6BBF;
+}
+
+div.my_menu svg{
+    color: #ECE9F2;
+}
+
+div.my_video{
+    margin-top: 100px;
+    position: relative;
+}
+
+div.my_video h3{
+    font-size: 18px;
+    color:#fff;
+}
+
+div.my_video ul{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+div.my_video li{
+    width: 200px;
+    height: 133px;
+    display: inline-block;
+    margin-right: 60px;
+    position: relative;
+}
+
+div.my_video img{
+    width: 100%;
+    vertical-align: bottom;
+    margin-top: 0;
+}
+
+div.my_video span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #8E6BBF;
+}
+
+div.my_video svg{
+    color: #ECE9F2;
+}
+
+div.my_menu i.bi{
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+div.my_menu i.bi-chevron-left{
+     top: 110px;
+     left: -30px;
+}
+
+div.my_menu i.bi-chevron-right{
+    top: 110px;
+    right: 60px;
+}
+
+div.my_menu .-on{
+    display: none;
+}
+
+div.my_video i.bi{
+    position: absolute;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+div.my_video i.bi-chevron-left{
+     top: 80px;
+     left: -30px;
+}
+
+div.my_video i.bi-chevron-right{
+    top: 80px;
+    right: 30px;
+}
+
+div.my_video .-on{
+    display: none;
+}
+
+/***************************以下複製貼上****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

@@ -1,0 +1,246 @@
+body{
+/*     color: white; */
+    background-color: #31105E;
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+
+#main_img {
+	width: 100%;
+	margin-top: 0;
+}
+
+#top {
+	padding-top: 40px;
+}
+
+#center {
+	border: 1px solid black;
+	height: 1000px;
+	background-color: #31105E;
+	width: 100%;
+}
+
+#center2{
+	width: 100% auto;
+}
+
+#text1 {
+	overflow: hidden;
+	max-width: 1200px;
+	margin: 50px auto 20px;
+}
+
+#hot_video {
+	float: left;
+	color: #fff;
+}
+
+#all_videos {
+	float: right;
+	color: #fff;
+}
+
+#more {
+	float: right;
+	color: #fff;
+}
+
+#video_pic_div {
+/* 	width: 1300px; */
+/* 	margin: 0 auto; */
+	/* 	max-width: 1600px; */
+	margin: 0 auto;
+	position: relative;
+    width: 100% auto;
+    height: 300px;
+/*     padding-bottom: 56.25%; */
+	padding-left: 5%;
+}
+
+.video_pic {
+	width: 250px;
+	margin-right: 120px;
+}
+
+.video_pic3 {
+	margin-right: 0;
+}
+
+.video_name {
+	display: inline-block;
+	margin-right: 155px;
+	color: #fff;
+	margin-top: 5px;
+}
+
+.name3 {
+	margin-right: 0;
+}
+
+.coach {
+	margin-left: 120px;
+	color: #fff;
+}
+
+#coach_rank {
+	width: 1200px;
+	margin: 50px auto 20px;
+	color: #fff;
+}
+
+#coach_pic_div {
+/* 	max-width: 1600px; */
+	margin: 0 auto;
+	position: relative;
+    width: 100% auto;
+    height: 100px;
+/*     padding-bottom: 56.25%; */
+	padding-left: 5%;
+}
+
+/* .iframe { */
+/*     position: absolute; */
+/*     top: 0; */
+/*     left: 0; */
+/*     width: 100%; */
+/*     height: 100%; */
+/*     transform: scale(0.55); */
+/*     frameborder: 0;  */
+/*     scrolling: no; */
+/*     -webkit-transform: scale(0.8); //chrome */
+/* } */
+
+.coach_pic {
+	width: 250px;
+	margin-right: 120px;
+}
+
+.pic3 {
+	margin-right: 0;
+}
+
+.coach_list {
+	/* 	display: inline-block; */
+	/* 	margin-right: 340px; */
+	/* 	margin-top: 10px; */
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	width: 250px;
+}
+
+.list3 {
+	margin-right: 0;
+}
+
+#bottom {
+	height: 250px;
+	background-color: #5C37A1;
+	padding-top: 80px;
+	width:100%;
+}
+
+p {
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+#address {
+	margin-top: 70px;
+}
+
+/***************************以下複製貼上****************************/
+
+i.-on{
+    display: none;
+}
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}

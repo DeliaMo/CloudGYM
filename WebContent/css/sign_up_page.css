@@ -1,0 +1,102 @@
+body{
+    background-color: #5C37A1;
+    font-family: 微軟正黑體;
+}
+
+#back{
+    background-color: #EDE9F2;
+    width: 1160px;
+    height: 585px;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+img {
+    position: absolute;
+    width: 437px;
+    height: 585px;
+    top: 80px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+
+#signup{
+    width: 437px;
+    height: 585px;
+    margin-left:  610px;
+    padding-top: 80px;
+    box-sizing: border-box
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 10px;
+    color: #746D6D;
+}
+
+p{
+    font-size: 16px;
+    color: #746D6D;
+}
+
+input{
+    background-color: transparent;
+    border:none;
+    outline:medium;
+}
+
+hr{
+    width: 400;
+}
+
+#email{
+    margin-top: 45px;
+    margin-left: 43px;
+    width: 250px;
+    height: 30px;
+    border-radius:10px;
+    border-width: 1px;
+    padding-left: 5px;
+    
+}
+
+:focus{
+    /* border-radius:10px;
+    border-width: 1px; */
+    outline: none;
+}
+
+#password{
+    margin-top: 35px;
+    margin-left: 43px;
+    width: 250px;
+    height: 30px;
+    border-radius:10px;
+    border-width: 1px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+}
+
+#errormsg{
+	position: absolute; 
+	float: left;
+}
+
+button{
+    font-size: 20px;
+    font-weight: 900;
+    width: 248px;
+    height: 39px;
+    margin-top: 80px;
+    border: none;
+    background-color: #31105E;
+    margin-left: 100px;
+    border-radius: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+

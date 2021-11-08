@@ -1,0 +1,76 @@
+.main{
+    border: 1px solid white;
+    background-color: white;
+    height: 99%;
+    width: 99%;
+}
+
+#bat_btn{
+    display:inline-block;
+    float: right;
+    margin: 15px 10px 10px 0px;
+    width: 100px;
+    height: 30px;
+    background-color: #5C37A1;
+    border: none;
+    color:white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+p{
+    position: absolute;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+
+table{
+    border: 3px solid black;
+    width: 100%;
+    height: 45px;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+th{
+    border: 1px solid black;
+    line-height: 30px;
+}
+
+td{
+    border: 1px solid black;
+    line-height: 30px;
+}
+
+.bi{
+    width: 35px;
+    height: 18px;
+    /* margin-top: 3px; */
+    font-size: 18px;
+    margin: 3px 0px 3px 4px;
+}
+
+.td_comm{
+    float: left;
+}
+
+.td_user{
+    float: right;
+    margin-right: 4px;
+}
+
+.getall{
+    width: 15px;
+    height: 15px;
+}
+
+.page{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* .td_comm input, .td_user input, .td_upload input{
+    margin: 3px 0px 3px 4px;
+} */

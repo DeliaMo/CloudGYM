@@ -1,0 +1,61 @@
+.main {
+	border: 1px solid white;
+	background-color: white;
+}
+
+.main-out {
+	border: 3px solid black;
+	height: 100%;
+	margin: 90px 50px 90px 50px;
+	position: relative;
+}
+
+.admin {
+	border-right: 1px solid black;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	line-height: 120px;
+/* 	position: relative; */
+	text-align: center;
+}
+
+.name {
+	display: inline-block;
+	height: 100%;
+	position: absolute;
+}
+
+.name-li {
+	line-height: 40px;
+	padding-left: 5px;
+}
+
+button.update {
+	position: absolute;
+	right: 60px;
+	margin-top: 30px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: none;
+	background-color: white;
+}
+
+.update:hover {
+	color: red;
+}
+
+.bi {
+	font-size: 25px
+}
+
+input[type=submit] {
+	padding: 5px 5px;
+	background: #ccc;
+	border: 0 none;
+	cursor: pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-left: 20px;
+}

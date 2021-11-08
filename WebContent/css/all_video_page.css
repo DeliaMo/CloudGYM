@@ -1,0 +1,227 @@
+body{
+    
+}
+
+#bar{
+    height: 40px;
+    background-color: #5C37A1;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    z-index: 10;
+}
+ 
+#title{
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+ 
+img{
+    width: 35px;
+    margin-top: 3px;
+}
+ 
+.bar_li{
+    float: left;
+}
+ 
+a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+a#CloudGYM{
+	margin-left: 10px;
+}
+
+i.bi-cart-fill span.-on{
+	display: none;
+}
+ 
+#option{
+    float: right;
+    overflow: hidden;
+}
+
+#option ul{
+    margin-right: 20px;
+}
+ 
+.option{
+    float: left;
+    color: white;
+    line-height: 40px;
+    margin: 0 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.bi{
+    margin-top: 7px;
+}
+
+/***************************以上複製貼上****************************/
+
+#wrap{
+    padding-top: 40px;
+    overflow: hidden;
+    height: 100%;
+    background-color: #5C37A1;
+    color: #fff;
+}
+
+#left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 50px;
+
+}
+
+#strenth_div{
+
+}
+
+.left_p{
+    margin-bottom: 10px;
+}
+
+#strenth_div input{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.strenth{
+    margin-left: 5px;
+}
+
+#price_range_div{
+    margin-top: 40px;
+}
+
+.price{
+    width: 80px;
+    display: block;
+}
+
+#line{
+    width: 40px;
+    height: 20px;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    border-right: 1px solid rgb(197, 197, 197);
+}
+
+button{
+    width: 80px;
+    margin-top: 25px;
+    height: 25px;
+    border: 1px;
+}
+
+#star_block_div{
+    margin-top: 40px;
+}
+
+#right{
+    float: right;
+    width: 80%;
+    height: 100%;
+    padding-top: 50px;
+    background-color: #31105E;
+}
+
+.video_box{
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 70px;
+}
+
+.video_type{
+    margin-bottom: 20px;
+}
+
+.video_box ul{
+    font-size: 0;
+    padding: 0;
+}
+
+.video_list{
+    display: inline-block;;
+    margin-right: 60px;
+    width: 250px;
+}
+
+.last{
+    margin-right: 0;
+}
+
+#right img{
+    width: 250px;
+}
+
+.video_name{
+    margin-top: 8px;  
+    font-size: 16px; 
+    padding-left: 10px;
+}
+
+.coach_name{
+    font-size: 16px;
+    float:right;
+}
+
+i.bi-chevron-left{
+    position: absolute;
+    top:100px;
+    left:30px;
+    font-size: 30px;
+}
+
+i.bi-chevron-right{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+    color: #fff;
+    font-size: 30px;
+}
+
+li.-on{
+    display: none;
+}
+
+i.-on{
+    display: none;
+}
+
+/***************************以下複製貼上****************************/
+
+i.bi-cart-fill{
+    font-size: 25px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+}
+
+i.bi-cart-fill span{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#ffffff;
+    font-size: 8px;
+    position: absolute;
+    top:0;
+    right:-3px;
+    font-family: arial;
+}
+
+i.bi:hover{
+    color:#bebebe;
+}
